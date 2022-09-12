@@ -23,8 +23,8 @@ let panelID = "my-info-panel";
  * init() is called when the page has loaded
  */
 function init() {
-  // Create a new Leaflet map centered on the continental US
-  map = L.map("map").setView([51.5, -0.1], 14);
+  // Create a new Leaflet map centered on the bogota
+  map = L.map("map").setView([4.643364, -74.112057], 15);
 
   // This is the Carto Positron basemap
   L.tileLayer(
