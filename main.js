@@ -24,7 +24,7 @@ let panelID = "my-info-panel";
  */
 function init() {
   // Create a new Leaflet map centered on the bogota
-  map = L.map("map").setView([4.643364, -74.112057], 15);
+  map = L.map("map").setView([4.596039, -74.110995], 20);
 
   // This is the Carto Positron basemap
   L.tileLayer(
