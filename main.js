@@ -24,7 +24,7 @@ let panelID = "my-info-panel";
  */
 function init() {
   // Create a new Leaflet map centered on the bogota
-  map = L.map("map").setView([4.596039, -74.110995], 20);
+  map = L.map("map").setView([4.573534, -74.247778], 20);
 
   // This is the Carto Positron basemap
   L.tileLayer(
@@ -33,7 +33,7 @@ function init() {
       attribution:
         "&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> &copy; <a href='http://cartodb.com/attributions'>CartoDB</a>",
       subdomains: "abcd",
-      maxZoom: 19,
+      maxZoom: 20,
     }
   ).addTo(map);
 
